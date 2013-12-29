@@ -7,7 +7,7 @@ Chatapp
 Requirements
 ------------
 
-[node.js](http://nodejs.org)
+[node.js](http://nodejs.org) and [bower](http://bower.io)
 
 
 Install
