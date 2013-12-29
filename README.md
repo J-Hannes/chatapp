@@ -1,28 +1,28 @@
-Chatapp
+chatapp
 =======
 
 .. created with node, backbone, socket.io and other killer libraries. 
 
 
-Requirements
+requirements
 ------------
 
 [node.js](http://nodejs.org) and [bower](http://bower.io)
 
 
-Install
+install
 -------
 
     npm install && bower install
 
 
-Run
+run
 ---
 
     node server
 
 
-Connect
+connect
 -------
 
 [http://localhost:8080](http://localhost:8080)
