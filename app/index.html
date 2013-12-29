@@ -4,16 +4,33 @@
     <script src="/components/requirejs/require.js"
             data-main="/scripts/main.js"></script> 
 
+    <link href="/components/bootstrap/dist/css/bootstrap.css"
+          rel="stylesheet" media="screen" />
+
     <!-- TODO: use markdown.js! -->
 
   </head>
   <body>
-    <form id="chat_form">
-      <label for="chat_input">Message:</label>
-      <input id="chat_input" />
-      <button>Submit</button>
-    </form>
-    <ul id="messages">
-    </ul>
+    <nav class="navbar navbar-default">
+      <section class="navbar-header">
+        <a class="navbar-brand" href="#">chatapp</a>
+      </section>
+    </nav>
+
+    <section class="container well">
+      <form id="chat_form" class="row" role="form">
+        <div class="col-lg-6">
+          <div class="input-group">
+            <input type="text" class="form-control" id="chat_input"
+                    placeholder="Enter a message ..." />
+            <span class="input-group-btn">
+              <input class="btn btn-primary" type="submit" val="Submit" />
+            </span>
+          </div>
+        </div>
+      </form>
+      <ul id="messages">
+      </ul>
+    </section>
   </body>
 </html>

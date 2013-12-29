@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
   res.sendfile(__dirname + '/app/index.html');
 });
 
-['components', 'scripts'].forEach(function(dir) {
+['components', 'scripts', 'styles'].forEach(function(dir) {
   app.use('/' + dir, express.static(__dirname + '/app/' + dir));
 });
 
