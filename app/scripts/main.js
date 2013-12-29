@@ -1,8 +1,8 @@
 require.config({
   paths: {
-    'backbone': '/bower_components/backbone/backbone',
-    'lodash': '/bower_components/lodash/dist/lodash',
-    'jquery': '/bower_components/jquery/jquery',
+    'backbone': '/components/backbone/backbone',
+    'lodash': '/components/lodash/dist/lodash',
+    'jquery': '/components/jquery/jquery',
     'socket.io': '/socket.io/socket.io'
   },
 

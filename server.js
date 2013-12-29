@@ -12,11 +12,11 @@ io.set('log level', 1); //reduce logging
 server.listen(8080);
 
 app.get('/', function(req, res) {
-  res.sendfile(__dirname + '/index.html');
+  res.sendfile(__dirname + '/app/index.html');
 });
 
-['bower_components', 'scripts'].forEach(function(dir) {
-  app.use('/' + dir, express.static(__dirname + '/' + dir));
+['components', 'scripts'].forEach(function(dir) {
+  app.use('/' + dir, express.static(__dirname + '/app/' + dir));
 });
 
 io.sockets.on('connection', function(client) {
