@@ -20,6 +20,8 @@
     "sub": true,
     "boss": true,
     "eqnull": true,
-    "es5": true,
-    "jquery": true
+    "jquery": true,
+    "globals": {
+        "define": false
+    }
 }
