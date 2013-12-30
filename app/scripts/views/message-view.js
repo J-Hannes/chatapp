@@ -7,6 +7,8 @@ define([
   var MessageView = Backbone.View.extend({
     tagName: 'li',
 
+    className: 'list-group-item',
+
     template: _.template('<%= content %>'),
 
     render: function() {
