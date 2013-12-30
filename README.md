@@ -1,7 +1,7 @@
 chat-app
 ========
 
-.. created with node, backbone, socket.io and other killer libraries. 
+Created with node, backbone, socket.io, bootstrap and some other killer libs.
 
 
 requirements
