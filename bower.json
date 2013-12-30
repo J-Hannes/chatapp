@@ -1,7 +1,7 @@
 {
-  "name": "chatapp",
-  "version": "0.0.0",
-  "homepage": "https://github.com/J-Hannes/chatapp",
+  "name": "chat-app",
+  "version": "0.0.1",
+  "homepage": "https://github.com/J-Hannes/chat-app",
   "authors": [
     "J-Hannes <Hannes_E@gmx.de>"
   ],
