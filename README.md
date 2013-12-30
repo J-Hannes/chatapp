@@ -1,5 +1,5 @@
-chatapp
-=======
+chat-app
+========
 
 .. created with node, backbone, socket.io and other killer libraries. 
 
